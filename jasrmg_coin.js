@@ -38,3 +38,8 @@ class Blockchain {
     this.chain.push(newBlock);
   }
 }
+
+// creating instance
+let jasrmgCoin = new Blockchain();
+jasrmgCoin.addBlock(new Block(1, "01/02/2023", { amount: 4 }));
+jasrmgCoin.addBlock(new Block(2, "01/03/2023", { amount: 10 }));
